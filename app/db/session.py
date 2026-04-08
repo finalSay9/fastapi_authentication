@@ -4,8 +4,9 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 from sqlalchemy.orm import DeclarativeBase
-
 from app.core.config import settings
+
+
 
 # Async engine — uses asyncpg under the hood
 engine = create_async_engine(
